@@ -1,8 +1,8 @@
-function greet(name, time = "day") {
-    console.log('good ${time} ${name}');
-}
-
-greet("tim", "night")
+// function greet(name, time = "day") {
+//     console.log('good ${time} ${name}');
+// }
+//
+// greet("tim", "night")
 
 // let greet = function (name) {
 //     console.log('hello $(name)');
@@ -14,6 +14,7 @@ greet("tim", "night")
 //     console.log('hello $(name)');
 // }
 // greet("tim")
+
 function circlearea(radius) {
     if (isNaN(radius)) {
         alert("this is not a string");
@@ -23,6 +24,15 @@ function circlearea(radius) {
     }
 }
 
-let uservalue = prompt("enter a number");
-let result = circlearea(<input type="">)
-alert('the are of a circle with radius ${userValue} is ${result}')
+let userValue = prompt("enter a number");
+let result = circlearea(<input type="text"/>)
+alert = ('the area of a circle with radius ${userValue} is ${result}');
+document.querySelector("#radius")
+console.log(RadiusPara);
+document.querySelector("#result")
+console.log(ResultPara)
+RadiusPara.textContent = userValue;
+let result = circlearea(userValue)
+if (result !== undefined) {
+
+}
